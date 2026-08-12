@@ -381,6 +381,9 @@ body {
 #cancelicon {
     display: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* media query/responsive */
 @media (max-width: 769px) {
@@ -399,12 +402,12 @@ body {
         color: #264921;
     }
 
-    /* Initially show menu icon */
+    /*  show menu icon */
     #menuicon {
         display: block;
     }
 
-    /* Initially hide cancel icon */
+    /* to hide cancel icon */
     #cancelicon {
         display: none;
     }
