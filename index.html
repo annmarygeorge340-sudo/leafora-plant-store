@@ -32,23 +32,35 @@
   <nav>
     <div class="navbar">
       <!-- brand name and logo -->
-      <a class="brandlogo" href="">
-        <i class="fa-brands fa-pagelines fa-float fa-2xl" style="color: rgb(68, 142, 54);"></i>
+
+      <div class="brand">
+        <i class=" brandlogo fa-brands fa-pagelines fa-float fa-2xl" style="color: rgb(68, 142, 54);"></i>
         <div class="brandtext">
           <h1 class="brandname">Leafora</h1>
           <p class="subhead">plant store</p>
         </div>
-      </a>
+      </div>
 
+
+      <!-- check box -->
+
+      <input type="checkbox" id="check">
+      <label class="icon" for="check">
+        <!-- menu icon -->
+        <i id="menuicon" class="fa-solid fa-bars"></i>
+        <!--  cancel icon-->
+        <i id="cancelicon" class="fa-solid fa-x"></i>
+
+      </label>
 
       <!-- nav icons -->
       <ul class="navlink">
-        <li class="links"><a href="">Home</a></li>
-        <li class="links"><a href="">Shop</a></li>
-        <li class="links"><a href="">Categories</a></li>
-        <li class="links"><a href="">Plant Care</a></li>
-        <li class="links"><a href="">About Us</a></li>
-        <li class="links"><a href="">Contact</a></li>
+        <li class="links"><a href="#home">Home</a></li>
+        <li class="links"><a href="#shop">Shop</a></li>
+        <li class="links"><a href="#category">Categories</a></li>
+        <li class="links"><a href="#plantcare">Plant Care</a></li>
+        <li class="links"><a href="#footer">About Us</a></li>
+        <li class="links"><a href="#contact">Contact</a></li>
       </ul>
 
       <div class="icons">
@@ -61,14 +73,16 @@
   </nav>
 
   <!-- banner -->
-  <section class="banner">
-    <h3 class="subbanner">Bring Nature Home</h3>
-    <h1 class="mainbanner">Beautiful Plants <br> for Beautiful Space</h1>
-    <p class="parabanner">Discover handpicked indoor plants that
-      purify the air and uplift your mood.</p>
-
-    <a> <button class="shopbutton">shop now</button></a>
-    <button class="explorebutton">Explore Collection</button>
+  <section id="home" class="banner">
+    <div >
+      <h3 class="subbanner">Bring Nature Home</h3>
+      <h1 class="mainbanner">Beautiful Plants <br> for Beautiful Space</h1>
+      <p class="parabanner">Discover handpicked indoor plants that
+        purify the air and uplift your mood.</p>
+  
+      <a> <button class="shopbutton">shop now</button></a>
+      <button class="explorebutton">Explore Collection</button>
+    </div>
 
   </section>
 
@@ -101,7 +115,7 @@
   </div>
   <!-- shop by category -->
 
-  <div class="cathead">
+  <div id="category" class="cathead">
     <h2 class="cath">SHOP BY CATEGORY</h2>
     <p>---<i class="fa-solid fa-spa fa-2xs" style="color: rgb(53, 135, 42);"></i>---</p>
 
@@ -114,7 +128,7 @@
     <!-- pnt2 -->
     <div class="plnt2">
       <img class="plntimg" src="./image/shopBY.jpeg" alt="no img">
-      <p>Catus</p>
+      <p>Outdoor Plants</p>
     </div>
     <!-- pnt3 -->
     <div class="plnt3">
@@ -124,66 +138,72 @@
     <!-- plnt4 -->
     <div class="plnt4">
       <img class="plntimg" src="./image/shpbyflw.jpeg" alt="no img">
-      <p>Flowring Plants</p>
+      <p>Flowering Plants</p>
     </div>
   </div>
 
   <!-- cards -->
   <section>
-    <h2 class="featuredhead">FEATURED PLANTS</h2>
+    <div>
+      <h2 id="shop" class="featuredhead">FEATURED PLANTS</h2>
+      <p class="headunderline">---<i class="fa-solid fa-spa fa-2xs" style="color: rgb(53, 135, 42);"></i>---</p>
+    </div>
+
     <div class="featuredcontainer">
       <!-- card1 -->
       <div class="card">
         <img class="cardimg" src="./image/peacelilly.jpeg" alt="no img">
-        <p>peace lilly</p>
-        <p>749</p>
+        <p>Peace lilly</p>
+        <p>₹ 749</p>
         <button class="button">Add to Cart</button>
       </div>
       <!-- card2 -->
       <div class="card">
         <img class="cardimg" src="./image/zz plant.jpeg" alt="no img">
         <p>ZZ Plant</p>
-        <p>799</p>
+        <p>₹ 799</p>
         <button class="button">Add to Cart</button>
       </div>
       <!-- card3 -->
       <div class="card">
         <img class="cardimg" src="./image/snakeplnt.jpeg" alt="no img">
         <p>Snake Plant</p>
-        <p>499</p>
+        <p>₹ 499</p>
         <button class="button">Add to Cart</button>
       </div>
       <!-- card4 -->
       <div class="card">
         <img class="cardimg" src="./image/monisterplant.jpeg" alt="no img">
         <p>Monister Plant</p>
-        <p>899</p>
+        <p>₹ 899</p>
         <button class="button">Add to Cart</button>
       </div>
       <!-- card5 -->
       <div class="card">
         <img class="cardimg" src="./image/rubber plant.jpeg" alt="no img">
         <p>Rubber plant</p>
-        <p>599</p>
+        <p>₹ 599</p>
         <button class="button">Add to Cart</button>
       </div>
       <!-- card6 -->
       <div class="card">
         <img class="cardimg" src="./image/calathiya.png" alt="no img">
         <p>Calathiya</p>
-        <p>299</p>
+        <p>₹ 299</p>
         <button class="button">Add to Cart</button>
       </div>
+      <!-- card7 -->
       <div class="card">
         <img class="cardimg" src="./image/moneyplant.png" alt="no img">
         <p>Money Plant</p>
-        <p>319</p>
+        <p>₹ 319</p>
         <button class="button">Add to Cart</button>
       </div>
+      <!-- card8 -->
       <div class="card">
         <img class="cardimg" src="./image/plamcard.1jpg.png" alt="no img">
         <p>Indoor Plam</p>
-        <p>269</p>
+        <p>₹ 269</p>
         <button class="button">Add to Cart</button>
       </div>
     </div>
@@ -193,18 +213,21 @@
   <!-- plant care tips -->
 
 
-  <div class="tipbanner">
+  <div id="plantcare" class="tipbanner">
     <h2 class="tipshead">PLANT CARE TIPS</h2>
+    <p class="tipunder">----<i class="fa-solid fa-spa fa-2xs" style="color: rgb(53, 135, 42);"></i>----</p>
     <div class="tips">
       <div>
-        <h3 class="tipsubhead"><i class="fa-solid fa-droplet fa-lg" style="color: rgb(40, 99, 32);"></i> Water Wisely</h3>
+        <h3 class="tipsubhead"><i class="fa-solid fa-droplet fa-lg" style="color: rgb(40, 99, 32);"></i> Water Wisely
+        </h3>
         <p class="tippara">
           Water when the top
           soil feels dry.
         </p>
       </div>
       <div>
-        <h3 class="tipsubhead"><i class="fa-solid fa-sun fa-lg" style="color: rgb(40, 99, 32);"></i> Bright Indirect Light</h3>
+        <h3 class="tipsubhead"><i class="fa-solid fa-sun fa-lg" style="color: rgb(40, 99, 32);"></i> Bright Indirect
+          Light</h3>
 
         <p class="tippara">
           Keep your plants in
@@ -212,7 +235,8 @@
         </p>
       </div>
       <div>
-        <h3 class="tipsubhead"><i class="fa-solid fa-plant-wilt fa-lg" style="color: rgb(40, 99, 32);"></i> Repot Every Year</h3>
+        <h3 class="tipsubhead"><i class="fa-solid fa-plant-wilt fa-lg" style="color: rgb(40, 99, 32);"></i> Repot Every
+          Year</h3>
         <p class="tippara">
           Repot your plants for
           healthy growth.
@@ -222,7 +246,7 @@
   </div>
 
   <!-- footer -->
-  <footer class="footer">
+  <section id="footer" class="footer">
     <div class="footersub">
       <div>
         <h3 class="fsubhead"><i class="fa-brands fa-pagelines  fa-lg" style="color: rgb(48, 75, 43);"></i>Verdant</h3>
@@ -231,6 +255,12 @@
           Because every corner <br>
           deserves a touch of green.
           <!-- social icon idanm -->
+        <p class="socialicon">
+          <i class="fa-brands fa-square-instagram " style="color: rgb(53, 135, 42);"></i>
+          <i class="fa-brands fa-square-facebook " style="color: rgb(53, 135, 42);"></i>
+          <i class="fa-brands fa-pinterest-p " style="color: rgb(53, 135, 42);"></i>
+          <i class="fa-brands fa-youtube " style="color: rgb(53, 135, 42);"></i>
+        </p>
         </p>
       </div>
 
@@ -241,7 +271,7 @@
           Indoor Plants <br>
           Outdoor Plants<br>
           Succulents
-          
+
         </p>
       </div>
 
@@ -254,29 +284,25 @@
           Plant Problems
         </p>
       </div>
+      
       <div>
-        <h3 class="fsubhead">Company</h3>
-        <p>About Us<br>
-          Our Blog<br>
-          Careers<br>
-          Contact Us</p>
-      </div>
-      <div>
-        <h3 class="fsubhead">Contact Us</h3>
+        <h3 id="contactus" class="fsubhead">Contact Us</h3>
         <p>
           <i class="fa-solid fa-phone fa-xs" style="color: rgb(53, 135, 42);"></i> +91 98765 43210<br>
           <i class="fa-solid fa-envelope fa-xs" style="color: rgb(53, 135, 42);"></i> hello@verdant.com<br>
-         <i class="fa-solid fa-location-dot fa-xs" style="color: rgb(53, 135, 42);"></i> Bangalore, India<br>
+          <i class="fa-solid fa-location-dot fa-xs" style="color: rgb(53, 135, 42);"></i> Bangalore, India<br>
         </p>
       </div>
     </div>
-  </footer>
+  </section>
 
 
   <!-- rights -->
-  <p class="rights">© 2026 Leafora Plant Store. All Rights Reserved.</p>
-
-
+  <div class="rights">
+    <p >© 2026 Leafora Plant Store. All Rights Reserved.</p>
+  
+  
+  </div>
 
 
 
