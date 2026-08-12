@@ -14,17 +14,18 @@ body {
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-   
+
     background-color: white;
     border-radius: 1%;
-    
+
 }
 
-.brand{
-     display: flex;
+.brand {
+    display: flex;
 }
+
 .brandlogo {
-   
+
     text-decoration: none;
     align-items: center;
     padding: 30px 0px;
@@ -71,19 +72,19 @@ body {
 
 
 .banner {
-   display: grid;
-   grid-column: 1fr 1fr;
-align-items: center;
+    display: grid;
+    grid-column: 1fr 1fr;
+    align-items: center;
     padding-left: 50px;
     background: url(./image/banner5.png);
-   
+
     background-position: center;
-   height: 550px;
+    height: 550px;
 }
 
 .subbanner {
     font-size: 25px;
-    
+
     margin-bottom: 20px;
     color: #4b5f48;
 }
@@ -174,11 +175,12 @@ align-items: center;
     cursor: pointer;
 }
 
-.plntimg:hover{
+.plntimg:hover {
     box-shadow: 0px 5px 20px rgb(71, 117, 71);
     transform: scale(1.02);
-    
+
 }
+
 .plntimg {
     width: 200px;
     height: 200px;
@@ -287,7 +289,7 @@ align-items: center;
     box-shadow: 0px 5px 20px;
     position: relative;
     width: 90%;
-    height:fit-content;
+    height: fit-content;
 
 }
 
@@ -296,6 +298,7 @@ align-items: center;
     padding-left: 30px;
     justify-content: center;
     gap: 30px;
+
 
 }
 
@@ -330,7 +333,7 @@ align-items: center;
 
 .footersub {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     flex-wrap: wrap;
     padding-left: 20px;
@@ -427,27 +430,30 @@ align-items: center;
     .links {
         margin: 10px 0;
     }
-    .icons{display: none;}
+
+    .icons {
+        display: none;
+    }
 
     /* CHECKED  */
-    #check:checked ~ .navlink {
+    #check:checked~.navlink {
         display: flex;
     }
 
     /* Hide it when checked */
-    #check:checked ~ .icon #menuicon {
+    #check:checked~.icon #menuicon {
         display: none;
     }
 
     /* Show X after check */
-    #check:checked ~ .icon #cancelicon {
+    #check:checked~.icon #cancelicon {
         display: block;
     }
 
-   
+
 
     /* BANNER */
-    
+
     .banner {
         padding: 70px 20px;
         text-align: center;
@@ -458,7 +464,8 @@ align-items: center;
     .mainbanner {
         font-size: 40px;
     }
-    .subbanner{
+
+    .subbanner {
         font-size: 20px;
     }
 
@@ -507,9 +514,15 @@ align-items: center;
         padding: 30px;
     }
 
+    .tipshead {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
     .tips {
         width: 100%;
         gap: 30px;
+        background-color: rgba(255, 255, 255, 0.5);
+
     }
 
 
@@ -539,7 +552,7 @@ align-items: center;
     .icons {
         gap: 12px;
         margin-right: 0;
-        
+
     }
 
     .banner {
